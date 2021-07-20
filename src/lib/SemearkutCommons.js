@@ -24,7 +24,7 @@ export function AlurakutMenu({ githubUser }) {
   return (
     <AlurakutMenu.Wrapper isMenuOpen={isMenuOpen}>
       <div className="container">
-        <AlurakutMenu.Logo src= '../images/logo.png'/>
+        <AlurakutMenu.Logo src= "https://github.com/gabrdgs/Semearkut/blob/main/images/logo.png?raw=true"/>
 
         <nav style={{ flex: 1 }}>
           {[{ name: 'Inicio', slug: '/'}, {name: 'Amigos', slug: '/amigos'}, {name: 'Comunidades', slug: '/comunidades'}].map((menuItem) => (
