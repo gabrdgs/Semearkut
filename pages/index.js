@@ -24,7 +24,7 @@ function ProfileSideBar(propriedades) {
 
 export default function Home() {
   const [comunidades, setComunidades] = React.useState([{
-    id: '',
+    id: '1234',
     title: 'Eu odeio acordar cedo',
     image: 'https://alurakut.vercel.app/capa-comunidade-01.jpg',
   }]);
